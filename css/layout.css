@@ -1,0 +1,560 @@
+.center{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* 顶部样式布局 */
+.top{
+    overflow: hidden;
+    height: 30px;    
+    background: #f5f5f5;    
+    line-height: 30px;
+    color: #9386a1;
+    font-size: 13px;
+}
+.top .center .top_left{
+    float: left;
+}
+
+.top .top_left i{
+    font-size: 18px;
+}
+
+.top .center .top_right{
+    float: right;
+    margin-right: 20px;
+}
+
+.top .center .top_right a{
+    color: #60bff2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.top .center .top_right a:hover{
+    color: #1fa4f0;
+}
+
+/* header区域样式布局 */
+.header{
+    height: 105px;
+}
+
+.header .center .header_logo{
+    position: relative;
+    float: left;
+    top: 15px;
+    width: 500px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 28px;
+    color: #006db3;
+    font-weight: bold;
+}
+
+.header .center .header_logo img{
+    width: 93px; 
+    height: 75px;
+}
+
+.header .center .header_logo span{
+    position: absolute;
+    top: 0px;
+    width: 438px;
+    height: 49px;
+}
+
+.header .center .header_input{
+    float: right;
+    position: relative;
+    margin-top: 29px;
+    right: 0;
+    width: 327px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;    
+}
+
+.header .center .header_input .hospital{
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    background: #fec009;
+    color: #fff;
+    border-radius: 6px 0 0 6px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.header .center .header_input .hospital:hover{
+    color: #333;
+}
+
+.header .center .header_input .hospital i{
+    font-size: 12px;
+}
+
+.header .center .header_input input{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    width: 215px;
+    height: 40px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #fec009;
+}
+
+.header .center .header_input button{
+    position: absolute;
+    right: 0;
+    width: 45px; 
+    height: 40px;
+    border: none;
+    background: #fec009;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+.header .center .header_input button i{
+    font-size: 20px;    
+}
+
+/* content区域标题栏样式布局 */
+.content{
+    position: relative;
+    background-color: #60bff2;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.content .center .nav_top ul li{
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.content .center .nav_top ul li:hover{
+    color: #333;
+}
+
+.content .center .nav_top ul li:first-child{
+    width: 190px;
+    margin-left: 0; 
+    text-align: center;
+    background: #1fa4f0;
+}
+
+/* middle区域上部区域布局 */
+.middle_top, .middle_bottom{
+    overflow: hidden;
+    width: 100%;
+    height: 423px;
+    margin-bottom: 11px;
+}
+
+.middle_top .menu{
+    float: left;
+    width: 190px;
+    height: 100%;
+    background: #1fa4f0;
+    margin-right: 5px;
+}
+
+.middle_top .menu ul{
+    float: left;
+    color: #fff;
+    font-size: 14px;
+}
+
+.middle_top .menu ul li{
+    margin-left: 2px;
+    width: 188px;
+    height: 38px;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.middle_top .menu ul li span i{
+    font-size: 14px;
+    margin: 0 5px 0 5px;
+}
+
+.middle_top .menu ul li:hover{
+    background: #fff;
+    color: #333;
+}
+
+.middle_top .slide{
+    float: left;
+    width:545px;
+    height: 413px;
+    margin-top: 7px;
+    display: inline-block;
+}
+
+.middle_top .search{
+    float: right;
+    width: 250px;
+    height: 413px;
+    margin-top: 7px;
+}
+
+.middle_top .search .search_item{
+    text-align: center;
+    line-height: 30px;
+    color: #fec009;
+    margin-left: 25px;
+    padding-top: 12px;
+    width: 200px;
+    height: 30px;
+}
+
+.middle_top .search .search_list{
+    margin: 10px auto 0;
+    width: 180px;
+    height: 130px;
+    text-align: center;
+}
+
+.middle_top .search .search_list select{
+    width: 169px;
+    height: 24px;
+    margin-bottom: 10px;
+    color: #aaa;
+}
+
+.middle_top .detail button{
+    width: 108px;
+    height: 32px;
+    color: #fff;
+    background: #fecd09;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 71px;
+    border: none;
+}
+
+.middle_top .detail button:hover{
+    color: #333;
+}
+
+.middle_top .search .help .help_title{
+    font-size: 16px;
+    color: #60bff2;
+    width: 120px;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.middle_top .search .help i{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.middle_top .search .help .help_item{
+    width: 200px;
+    height: 80px;
+    margin: 16px auto 0;
+}
+
+.middle_top .search .help .help_item ul li{
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;  
+    margin: 0 8px 5px 8px;
+}
+
+.middle_top .search .help .help_item ul li a{
+    text-decoration: none;
+    color: #60bff2;
+    font-size: 13px;
+}
+
+.middle_top .search .help .help_item ul li a:hover{
+    color: #1fa4f0;
+}
+
+.middle_top .search .detail{
+    width: 100%;
+    height: 255px;
+    margin-bottom: 10px;
+    background: #fafafa;
+}
+
+.middle_top .search .help{
+    width: 100%;
+    height: 145px;
+    background: #fafafa;
+}
+
+.middle_bottom{
+    overflow: hidden;
+    height: 485px;
+}
+
+.middle_bottom .address{
+    float: left;
+    width: 740px;
+    height: 420px;
+}
+
+.middle_bottom .address .address_title{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: #fafafa;
+}
+
+.middle_bottom .address .address_title ul li{
+    float: left;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    color: #60bff2;
+    cursor: pointer;
+}
+
+.middle_bottom .address .address_title ul li:first-child{
+    background: #60bff2;
+    color: #fff;
+}
+
+.middle_bottom .address .address_detail{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #fafafa;
+}
+
+.middle_bottom .address .address_detail ul{
+    margin-left: 10px;
+}
+
+.middle_bottom .address .address_detail ul .active{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #60bff2;
+    color: #fff;
+}
+
+.middle_bottom .address .address_detail ul li{
+    float: left;
+}
+
+.middle_bottom .address .address_detail ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #888;
+    padding: 3px 10px;
+}   
+
+.middle_bottom .address .address_info{
+    width: 680px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    height: 275px;
+}
+
+.middle_bottom .address .address_info .address_info_1{
+    overflow: hidden;
+    display: inline-block;
+    width: 320px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.middle_bottom .address .address_info .address_info_1 img{
+    float: left;
+    width: 110px;
+    height: 100px;
+}
+
+.middle_bottom .address .address_info .address_info_1 .hospital-info{
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.middle_bottom .address .address_info .address_info_1 .hospital-info p:first-child{
+    color: #60bff2;
+    font-size: 15px;
+}
+
+.middle_bottom .address .address_info .address_info_1 .hospital-info p:first-child .level{
+    font-size: 12px;
+    color: #333;
+    margin-left: 30px;
+}
+
+.middle_bottom .address .address_info .address_info_1 .hospital-info p{
+    font-size: 13px;
+    color: #888;
+    line-height: 24px;
+}
+
+.middle_bottom .address button{
+    margin-left: 270px;
+    width: 200px;
+    height: 30px;
+    color: #60bff2;
+    background: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.middle_bottom .news{
+    float: right;
+    width: 250px;
+    height: 420px;
+}
+
+.middle_bottom .news .latest_news{
+    width: 250px;
+    height: 236px;
+}
+
+.middle_bottom .news .latest_news .news_title{
+    display: block;
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    background: #fafafa;
+    box-sizing: border-box;
+    color: #fecd09;
+    padding-left: 14px;
+    font-size: 14px;
+}
+
+.middle_bottom .news .latest_news .news_title .more_news{
+    display: inline-block;
+    margin-left: 130px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.middle_bottom .news .latest_news .news_title .more_news:hover{
+    color: #222;
+    cursor: pointer;
+}
+
+.middle_bottom .news .latest_news ul{
+    margin-top: 6px;
+    margin-left: 5px;
+    color: #888;
+}
+
+.middle_bottom .news .latest_news ul li{
+    line-height: 30px;
+}
+
+.middle_bottom .news .latest_news ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+}
+
+.middle_bottom .news .latest_news ul li a:hover {
+    color: #60bff3;
+}
+
+.middle_bottom .news .stop_news{
+    width: 250px;
+    height: 240px;
+    margin-top: 10px;
+}
+
+.middle_bottom .news .stop_news .stop_news_title{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: #fafafa;
+    line-height: 40px;
+    font-size: 14px;
+    padding-left: 16px;
+    color: #60bff1;
+}
+
+.middle_bottom .news .stop_news .stop_news_title .more_news{
+    display: inline-block;
+    margin-left: 130px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.middle_bottom .news .stop_news .stop_news_title .more_news:hover{
+    color: #222;
+    cursor: pointer;
+}
+
+.middle_bottom .news .stop_news ul{
+    margin-top: 6px;
+    margin-left: 5px;
+    color: #888;
+}
+
+.middle_bottom .news .stop_news ul li{
+    line-height: 30px;
+}
+
+.middle_bottom .news .stop_news ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+}
+
+.middle_bottom .news .stop_news ul li a:hover {
+    color: #60bff3;
+}
+
+/*底部区域样式布局*/
+.footer{
+    width: 100%;
+    height: 120px;
+    background: #eceef2;
+    margin-top: -10px;
+}
+
+.footer .center ul{
+    margin-left: 280px;
+    padding-top: 30px;
+}
+
+.footer .center ul li{
+    float: left;
+    color: #eceef2;
+    margin-right: 30px;
+}
+
+.footer .center ul li a{
+    text-decoration: none;
+}
+
+.footer .center .copyright{
+    width: 300px;
+    height: 30px;
+    border-top: 1px solid #e3a43d;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 350px;
+    padding-top: 10px;
+    color: #333;
+    font-size: 12px;
+}
