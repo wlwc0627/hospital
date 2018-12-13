@@ -77,22 +77,57 @@
 
 .header .center .header_input .hospital{
     display: inline-block;
-    width: 70px;
+    width: 71px;
     height: 40px;
+    padding-right: 10px;
     text-align: center;
     background: #fec009;
     color: #fff;
     border-radius: 6px 0 0 6px;
     cursor: pointer;
     box-sizing: border-box;
+    outline: none;
 }
 
-.header .center .header_input .hospital:hover{
+.header .center .header_input .hospital:hover,
+.header .center .header_input div.iconfont:hover{
     color: #333;
 }
 
-.header .center .header_input .hospital i{
-    font-size: 12px;
+.header .center .header_input div.iconfont{
+    position: absolute;
+    left: 50px;
+    top: 17px;
+    cursor: pointer;
+    width: 14px;
+    height: 10px;
+    font-size: 8px;
+    text-align: center;
+    line-height: 8px;
+    color: #fff;
+}
+
+.header .center .header_input .ui-search-select-list{
+    display: none;
+    position: absolute;
+    left: 5px;
+    z-index: 10; 
+    width: 60px;
+    text-align: center;
+    font-size: 14px;
+    background: #fff;
+}
+
+.header .center .header_input .ui-search-select-list a{
+    display: block;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.header .center .header_input .ui-search-select-list a:hover{
+    background: #888;
+    color: #fff;
+    border-radius: 4px;
 }
 
 .header .center .header_input input{

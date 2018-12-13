@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href='./css/iconfont/iconfont.css'>
+    <link rel="stylesheet" href="./css/ui.css">
+    <script src="./js/jquery.js"></script>
 </head>
 <body>
-    <div id='top' class='top'>
+    <div id='top' class='top'>      <!-- 顶部区域开始 -->
         <div class='center'>
             <div class='top_left'>
                 <i class='iconfont'>&#xe601;</i>
@@ -25,28 +27,34 @@
                 </span>
             </div>
         </div>
-    </div>
+    </div>      <!-- 顶部区域结束 -->
 
-    <div id='header' class='header'>
+    <div id='header' class='header'>        <!-- 头部header区域开始 -->
         <div class='center'>
             <div class='header_logo'>
                 <img src="http://img.bjguahao.gov.cn/ws/1.0/hs/images/logo.jpg" />
                 <span>北京市预约挂号统一平台</span>
             </div>
             <div class='header_input'>
-                <span class='hospital'>
-                    医院&nbsp;
-                    <i class='iconfont'>&#xe600;</i>
-                </span>
-                <input type="text" placeholder="请输入搜索内容" />
+                <div class='hospital'>
+                    医院
+                   
+                </div> 
+                <div class='iconfont'>&#xe600;</div>
+                <div class="ui-search-select-list">
+                    <a href="">科室</a>
+                    <a href="">疾病</a>
+                    <a href="">医院</a>
+                </div>
+                <input type="text" class="ui-search-input" placeholder="请输入搜索内容" />
                 <button>
                     <i class='iconfont'>&#xe614;</i>
                 </button>
             </div>
         </div>
-    </div>
+    </div>      <!-- 头部header区域结束 -->
 
-    <div id='content' class='content'>
+    <div id='content' class='content'>      <!-- 导航栏区域开始 -->
         <div class='center'>
             <div class='nav_top'>
                 <ul>
@@ -58,10 +66,10 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div>      <!-- 导航栏区域结束 -->
 
-    <div class="center">
-        <div class='middle_top'>
+    <div class="center">        <!-- 中间内容区域开始 -->
+        <div class='middle_top'>        <!-- 中间上部内容区域开始 -->
             <div class='menu'>
                 <ul class='menu_list'>
                     <li>
@@ -175,9 +183,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>      <!-- 中间上部内容区域结束 -->
         
-        <div class='middle_bottom'>
+        <div class='middle_bottom'>     <!-- 中间下部内容区域开始 -->
             <div class='address'>
                 <div class='address_title'>
                     <ul>
@@ -187,8 +195,8 @@
                 </div>
                 <div class="address_detail">
                     <ul>
-                        <li><a href="" class='active'>全部</a></li>
-                        <li><a href="">东城区</a></li>
+                        <li><a href="">全部</a></li>
+                        <li><a href="" class='active'>东城区</a></li>
                         <li><a href="">西城区</a></li>
                         <li><a href="">朝阳区</a></li>
                         <li><a href="">丰台区</a></li>
@@ -252,10 +260,10 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>      <!-- 中间下部内容区域结束 -->
+    </div>    <!-- 中间内容区域结束 -->     
 
-    <div id='footer' class='footer'>
+    <div id='footer' class='footer'>        <!-- 底部区域开始 -->
         <div class="center">
             <ul>
                 <li><a href="">联系我们</a></li>
@@ -269,6 +277,8 @@
                 版权所有&nbsp;京ICP备05056889号
             </div>
         </div>
-    </div>
+    </div>      <!-- 底部区域结束 -->
+
+    <script src="./js/ui.js"></script>
 </body>
 </html>
