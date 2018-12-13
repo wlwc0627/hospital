@@ -1,0 +1,206 @@
+/*
+* @Author: WANGLI
+* @Date:   2018-12-12 22:09:58
+* @Last Modified by:   WANGLI
+* @Last Modified time: 2018-12-13 13:39:41
+*/
+
+/*header区域搜索样式开始*/
+.header .center .header_logo span{
+    position: absolute;
+    top: 0px;
+    width: 438px;
+    height: 49px;
+}
+
+.header .center .header_input{
+    float: right;
+    position: relative;
+    margin-top: 29px;
+    right: 0;
+    width: 327px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;    
+}
+
+.header .center .header_input .hospital{
+    display: inline-block;
+    width: 71px;
+    height: 40px;
+    padding-right: 10px;
+    text-align: center;
+    background: #fec009;
+    color: #fff;
+    border-radius: 6px 0 0 6px;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.header .center .header_input .hospital:hover,
+.header .center .header_input div.iconfont:hover{
+    color: #333;
+}
+
+.header .center .header_input div.iconfont{
+    position: absolute;
+    left: 50px;
+    top: 17px;
+    cursor: pointer;
+    width: 14px;
+    height: 10px;
+    font-size: 8px;
+    text-align: center;
+    line-height: 8px;
+    color: #fff;
+}
+
+.header .center .header_input .ui-search-select-list{
+    display: none;
+    position: absolute;
+    left: 5px;
+    z-index: 10; 
+    width: 60px;
+    text-align: center;
+    font-size: 14px;
+    background: #fff;
+}
+
+.header .center .header_input .ui-search-select-list a{
+    display: block;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.header .center .header_input .ui-search-select-list a:hover{
+    background: #888;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.header .center .header_input input{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    width: 215px;
+    height: 40px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #fec009;
+}
+
+.header .center .header_input button{
+    position: absolute;
+    right: 0;
+    width: 45px; 
+    height: 40px;
+    border: none;
+    background: #fec009;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+.header .center .header_input button i{
+    font-size: 20px;    
+}
+/*header区域搜索样式结束*/
+
+/*center区域侧边栏样式开始*/
+.middle_top .menu{
+    float: left;
+    position: relative;
+    width: 190px;
+    height: 420px;
+    background: #1fa4f0;
+    margin-right: 5px;
+}
+
+.middle_top .menu ul{
+    float: left;
+    color: #fff;
+    font-size: 14px;
+}
+
+.middle_top .menu ul li{
+    margin-left: 2px;
+    width: 188px;
+    height: 38px;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.middle_top .menu ul li a i{
+    font-size: 14px;
+    margin: 0 5px 0 5px;
+}
+
+.middle_top .menu ul li:hover{
+    background: #eee;
+    color: #333;
+}
+
+.middle_top .menu ul li span{
+	float: right;
+	display: inline-block;
+	margin-right: 10px;
+	height: 24px;
+}
+
+.middle_top .menu ul li span a{
+	text-decoration: none;
+	font-size: 12px;
+	color:inherit;
+}
+
+.middle_top .menu ul li span a:hover{
+	color: #60bff3;
+}
+
+.menu_list_detail{
+	display: none;
+	position: absolute;
+	z-index: 999;
+	background: #fff;
+	left: 190px;
+	top: 0;
+	width: 500px;
+	height: 419px;
+	padding: 14px 25px;	
+}
+
+.menu_list_detail .menu_list_group_caption{
+	margin-bottom: 10px;
+}
+
+.menu_list_detail .menu_list_group_caption p{
+	font-size: 15px;
+	color: #333;
+}
+
+.menu_list_detail .menu_list_group_caption a{
+	text-decoration: none;
+	display: inline-block;
+	height: 24px;
+	color: #666;
+	margin-top: -5px;
+	font-size: 12px;
+	margin-right: 6px;
+}
+
+.menu_list_detail .menu_list_group_caption a:hover{
+	color: #222;
+}
+
+.menu_list_detail .menu_list_group_caption a:after{
+	content: '|';
+	margin-left: 6px;
+}
+
+.middle_top .menu ul li:hover .menu_list_detail{
+	display: block;
+}
+
+/*center区域侧边栏样式结束*/
