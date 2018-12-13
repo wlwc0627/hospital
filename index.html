@@ -549,55 +549,49 @@
         </div>      <!-- 中间上部内容区域结束 -->
         
         <div class='middle_bottom'>     <!-- 中间下部内容区域开始 -->
-            <div class='address'>
-                <div class='address_title'>
+            <div class='tab_content'>
+                <div class='tab_header'>
                     <ul>
-                        <li>医院</li>
+                        <li class="active">医院</li>
                         <li>科室</li>
                     </ul>
                 </div>
-                <div class="address_detail">
-                    <ul>
-                        <li><a href="">全部</a></li>
-                        <li><a href="" class='active'>东城区</a></li>
-                        <li><a href="">西城区</a></li>
-                        <li><a href="">朝阳区</a></li>
-                        <li><a href="">丰台区</a></li>
-                        <li><a href="">石景山区</a></li>
-                        <li><a href="">海淀区</a></li>
-                        <li><a href="">门头沟区</a></li>
-                        <li><a href="">门头沟区</a></li>
-                        <li><a href="">房山区</a></li>
-                        <li><a href="">其他</a></li>
-                    </ul>
-                </div>
-                <div class='address_info'>
-                    <div class='address_info_1'>
-                        <img src="./image/hospital-1.jpg" alt="">
-                        <span class='hospital-info'>
-                            <p>北京协和医院<span class='level'>【三级甲等】</span></p>
-                            <p>电话：010-69156114</p>
-                            <p>地址：北京市东城区帅府园1号</p>
-                        </span>
+                <div class="tab_container">
+                    <div class="tab_city">
+                        <ul>
+                            <li>全部</li>
+                            <li>东城区</li>
+                            <li>西城区</li>
+                            <li>朝阳区</li>
+                            <li class='active'>丰台区</li>
+                            <li>石景山区</li>
+                            <li>海淀区</li>
+                            <li>门头沟区</li>
+                            <li>门头沟区</li>
+                            <li>房山区</li>
+                            <li>其他</li>
+                        </ul>
                     </div>
-                    <div class='address_info_1'>
-                        <img src="./image/hospital-1.jpg" alt="">
-                        <span class='hospital-info'>
-                            <p>北京协和医院<span class='level'>【三级甲等】</span></p>
-                            <p>电话：010-69156114</p>
-                            <p>地址：北京市东城区帅府园1号</p>
-                        </span>
-                    </div>
-                    <div class='address_info_1'>
-                        <img src="./image/hospital-1.jpg" alt="">
-                        <span class='hospital-info'>
-                            <p>北京协和医院<span class='level'>【三级甲等】</span></p>
-                            <p>电话：010-69156114</p>
-                            <p>地址：北京市东城区帅府园1号</p>
-                        </span>
+                    <div class='more_info'>
+                        <div class="info">
+                            全部...
+                        </div>
+                        <div class="info" style="display: none">
+                            更多医院信息...
+                        </div>
+                        <!-- <div class='address_info'>
+                            <img src="./image/hospital-1.jpg" alt="">
+                            <span class='hospital-info'>
+                                <p>北京协和医院<span class='level'>【三级甲等】</span></p>
+                                <p>电话：010-69156114</p>
+                                <p>地址：北京市东城区帅府园1号</p>
+                            </span>
+                        </div> -->
                     </div>
                 </div>
-                <button>更多医院</button>
+                <div class="tab_container" style="display: none;">
+                    更多科室信息...
+                </div>
             </div>
             <div class='news'>
                 <div class='latest_news'>

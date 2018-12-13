@@ -204,120 +204,10 @@
     height: 485px;
 }
 
-.middle_bottom .address{
+.middle_bottom .tab_content{
     float: left;
     width: 740px;
     height: 420px;
-}
-
-.middle_bottom .address .address_title{
-    width: 100%;
-    height: 35px;
-    line-height: 35px;
-    background: #fafafa;
-}
-
-.middle_bottom .address .address_title ul li{
-    float: left;
-    width: 120px;
-    height: 35px;
-    text-align: center;
-    color: #60bff2;
-    cursor: pointer;
-}
-
-.middle_bottom .address .address_title ul li:first-child{
-    background: #60bff2;
-    color: #fff;
-}
-
-.middle_bottom .address .address_detail{
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    border-bottom: 1px solid #fafafa;
-}
-
-.middle_bottom .address .address_detail ul{
-    margin-left: 10px;
-}
-
-.middle_bottom .address .address_detail ul .active{
-    padding: 5px 10px;
-    border-radius: 5px;
-    background: #60bff2;
-    color: #fff;
-}
-
-.middle_bottom .address .address_detail ul li{
-    float: left;
-}
-
-.middle_bottom .address .address_detail ul li a{
-    text-decoration: none;
-    font-size: 12px;
-    color: #888;
-    padding: 3px 10px;
-}   
-
-.middle_bottom .address .address_info{
-    width: 680px;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 3px;
-    height: 275px;
-}
-
-.middle_bottom .address .address_info .address_info_1{
-    overflow: hidden;
-    display: inline-block;
-    width: 320px;
-    height: 120px;
-    margin-left: 10px;
-    margin-top: 18px;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
-.middle_bottom .address .address_info .address_info_1 img{
-    float: left;
-    width: 110px;
-    height: 100px;
-}
-
-.middle_bottom .address .address_info .address_info_1 .hospital-info{
-    float: right;
-    display: inline-block;
-    margin-top: 10px;
-    width: 200px;
-    height: 100px;
-}
-
-.middle_bottom .address .address_info .address_info_1 .hospital-info p:first-child{
-    color: #60bff2;
-    font-size: 15px;
-}
-
-.middle_bottom .address .address_info .address_info_1 .hospital-info p:first-child .level{
-    font-size: 12px;
-    color: #333;
-    margin-left: 30px;
-}
-
-.middle_bottom .address .address_info .address_info_1 .hospital-info p{
-    font-size: 13px;
-    color: #888;
-    line-height: 24px;
-}
-
-.middle_bottom .address button{
-    margin-left: 270px;
-    width: 200px;
-    height: 30px;
-    color: #60bff2;
-    background: #fff;
-    cursor: pointer;
-    border: none;
 }
 
 .middle_bottom .news{
@@ -331,7 +221,7 @@
     height: 236px;
 }
 
-.middle_bottom .news .latest_news .news_title{
+.latest_news .news_title{
     display: block;
     width: 100%;
     height: 39px;
@@ -343,19 +233,19 @@
     font-size: 14px;
 }
 
-.middle_bottom .news .latest_news .news_title .more_news{
+.latest_news .news_title .more_news{
     display: inline-block;
     margin-left: 130px;
     color: #aaa;
     font-size: 12px;
 }
 
-.middle_bottom .news .latest_news .news_title .more_news:hover{
+.latest_news .news_title .more_news:hover{
     color: #222;
     cursor: pointer;
 }
 
-.middle_bottom .news .latest_news ul{
+.news .latest_news ul{
     margin-top: 6px;
     margin-left: 5px;
     color: #888;

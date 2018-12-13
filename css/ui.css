@@ -2,7 +2,7 @@
 * @Author: WANGLI
 * @Date:   2018-12-12 22:09:58
 * @Last Modified by:   WANGLI
-* @Last Modified time: 2018-12-13 13:39:41
+* @Last Modified time: 2018-12-13 18:55:33
 */
 
 /*header区域搜索样式开始*/
@@ -56,7 +56,7 @@
     color: #fff;
 }
 
-.header .center .header_input .ui-search-select-list{
+.ui-search-select-list{
     display: none;
     position: absolute;
     left: 5px;
@@ -67,19 +67,19 @@
     background: #fff;
 }
 
-.header .center .header_input .ui-search-select-list a{
+.ui-search-select-list a{
     display: block;
     text-decoration: none;
     line-height: 24px;
 }
 
-.header .center .header_input .ui-search-select-list a:hover{
+.ui-search-select-list a:hover{
     background: #888;
     color: #fff;
     border-radius: 4px;
 }
 
-.header .center .header_input input{
+.header_input input{
     position: absolute;
     top: 0px;
     left: 70px;
@@ -204,3 +204,83 @@
 }
 
 /*center区域侧边栏样式结束*/
+
+/*底部tab切换部分开始*/
+.tab_header{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: #fafafa;
+}
+
+.tab_header ul li{
+    float: left;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active{
+    background: #60bff2;
+    color: #fff;
+}
+
+.tab_container{
+	width: 100%;
+	height: 400px;
+	border: 1px solid red;
+}
+
+.tab_city{
+	overflow: hidden;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+.tab_city ul{
+    margin-left: 10px;
+}
+
+.tab_city ul li{
+	float: left;
+	box-sizing: border-box;
+	margin-right: 6px;
+	margin-top: 8px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 8px;
+	font-size: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+/*底部tab切换部分结束*/
+
+/*回到顶部功能开始*/
+.back_top{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	color: #888;
+	border: 1px solid rgba(0, 0, 0, .1);
+	box-shadow: 0 2px 2px rgba(0,0,0,.1);
+}
+
+.back_top i{
+	font-size: 40px;
+}
+
+.back_top:hover{
+	color: #333;
+	box-shadow: 0 2px 2px rgba(0,0,0,.3);
+}
+/*回到顶部功能结束*/
