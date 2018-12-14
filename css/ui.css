@@ -2,7 +2,7 @@
 * @Author: WANGLI
 * @Date:   2018-12-12 22:09:58
 * @Last Modified by:   WANGLI
-* @Last Modified time: 2018-12-13 18:55:33
+* @Last Modified time: 2018-12-14 01:36:36
 */
 
 /*header区域搜索样式开始*/
@@ -256,8 +256,6 @@
 	border-radius: 5px;
 	cursor: pointer;
 }
-
-
 /*底部tab切换部分结束*/
 
 /*回到顶部功能开始*/
@@ -284,3 +282,105 @@
 	box-shadow: 0 2px 2px rgba(0,0,0,.3);
 }
 /*回到顶部功能结束*/
+
+/*slide区域布局开始*/
+.middle_top .slider{
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width:545px;
+    height: 413px;
+    margin-top: 7px;
+    display: inline-block;
+}
+
+.slider-img-wrapper{
+	width: 2180px;
+    height: 414px;
+}
+
+.slider-img-wrapper a{
+	display: inline-block;
+	width: 545px;
+	height: 413px;
+}
+
+.slider-img-wrapper .item{
+    float: left;
+    position: relative;
+}
+
+.slider-arrow{
+	overflow: hidden;
+	position: absolute;
+	width: 545px;
+	height: 40px;
+	top: 50%;
+	margin-top: -20px;
+}
+
+.slider-arrow .item{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	line-height: 40px;
+	color: rgba(255, 255, 255, .2);
+	box-sizing: border-box;
+}
+
+.slider-arrow .item:hover{
+	color: #222;
+}
+
+.slider-arrow .item i{
+	font-size: 30px;
+}
+
+.slider-arrow .left{
+	float: left;
+	margin-left: 10px;
+}
+
+.slider-arrow .right{
+	float: right;
+	margin-right: 10px;
+}
+
+.slider-arrow .right i{
+	float: right;
+}
+
+.slider-process{
+	position: absolute;
+	bottom: 0;
+	width: 544px;
+	height: 20px;
+}
+
+.slider-process ul{
+	display: block;
+	width: 90px;
+	height: 14px;
+	margin-left: 252px;
+	margin-top: 2px;
+}
+
+.slider-process ul li{
+	float: left;
+	margin-right: 6px;
+	width: 12px;
+	height: 12px;
+ 	border: .5px solid #eee;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slider-process ul li:hover{
+    background: #098;
+}
+
+.focus{
+	background: #089;
+}
+/*slide区域布局结束*/

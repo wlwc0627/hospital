@@ -91,14 +91,6 @@
     margin-bottom: 11px;
 }
 
-.middle_top .slide{
-    float: left;
-    width:545px;
-    height: 413px;
-    margin-top: 7px;
-    display: inline-block;
-}
-
 .middle_top .search{
     float: right;
     width: 250px;
